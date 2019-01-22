@@ -3,6 +3,8 @@ package estacion;
 import bicicleta.Bicicleta;
 import tarjetaUsuario.TarjetaUsuario;
 
+import java.util.concurrent.ThreadLocalRandom;
+
 public class Estacion {
 
     private int id = 0;
@@ -45,6 +47,10 @@ public class Estacion {
         return anclajesLibre;
     }
 
+    public void consultarAnclajes() {
+        ;
+    }
+
     public void anclarBicicleta(Bicicleta bicicleta) {
 
         int posicion = 0;
@@ -52,7 +58,7 @@ public class Estacion {
 
         for (Bicicleta anclaje: this.anclajes) {
             if (anclaje == null) {
-                this.anclajes = bicicleta[posicion];
+                this.anclajes[posicion] = bicicleta;
                 mostrarAnclaje(bicicleta, numeroAnclaje);
                 break;
             } else {
@@ -63,7 +69,7 @@ public class Estacion {
     }
 
     public void mostrarAnclaje(Bicicleta bicicleta, int numeroAnclaje) {
-        System.out.println("Bicicleta: " + Bicicleta.getId() + " anclada en el anclaje: " + this.anclajes);
+        System.out.println("Bicicleta: " + bicicleta.getId() + " anclada en el anclaje: " + this.anclajes);
     }
 
     public Boolean leerTarjetaUsuario (TarjetaUsuario tarjetaUsuario) {
@@ -71,7 +77,15 @@ public class Estacion {
     }
 
     public void retirarBicicleta(TarjetaUsuario tarjetaUsuario) {
-        
-        }
+        ;
+    }
+
+    public void mostrarBicicleta(Bicicleta bicicleta, int numeroAnclaje) {
+        System.out.println("Bicicleta " + bicicleta.getId() + " en el anclaje " + numeroAnclaje);
+    }
+
+    public int generarAnclaje() {
+        int numeroEntero = ThreadLocalRandom.current().nextInt(0, this.anclajes.length);
+        return numeroEntero;
     }
 }
