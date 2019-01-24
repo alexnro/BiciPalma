@@ -33,7 +33,7 @@ public class Estacion {
     public void consultarEstacion() {
         System.out.println("id: " + this.id);
         System.out.println("direccion: " + this.direccion);
-        System.out.println("numeroAnclajes: " + this.anclajes);
+        System.out.println("numeroAnclajes: " + this.numeroAnclaje);
     }
     
     public int anclajesLibres() {
