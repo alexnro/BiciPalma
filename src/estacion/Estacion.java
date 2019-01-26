@@ -7,9 +7,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class Estacion {
 
-<<<<<<< HEAD
-   
-=======
+    
     private int id = 0;
     private String direccion = null;
     private int numeroAnclaje = 0;
@@ -91,5 +89,4 @@ public class Estacion {
         int numeroEntero = ThreadLocalRandom.current().nextInt(0, this.anclajes.length);
         return numeroEntero;
     }
->>>>>>> estacion
 }
