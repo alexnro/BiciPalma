@@ -7,7 +7,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class Estacion {
 
-    
+
     private int id = 0;
     private String direccion = null;
     private int numeroAnclaje = 0;
