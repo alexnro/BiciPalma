@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d47a1923-a4ff-454d-be2d-7aafe61b74c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore Java" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore Java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BiciPalma/estacion/Estacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BiciPalma/estacion/Estacion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estacion/Estacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estacion/Estacion.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,10 +26,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/estacion/Estacion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
+            <state relative-caret-position="114">
               <caret line="90" column="65" selection-start-line="90" selection-start-column="65" selection-end-line="90" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -43,6 +42,24 @@
                 <element signature="e#2305#2306#0" expanded="true" />
                 <element signature="e#2356#2357#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore Java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="579">
+              <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../gitignore/.gitignore Java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="62" selection-start-line="62" selection-end-line="65" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -102,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/bicicleta/Bicicleta.java" />
         <option value="$PROJECT_DIR$/src/tarjetaUsuario/TarjetaUsuario.java" />
         <option value="$PROJECT_DIR$/src/estacion/Estacion.java" />
+        <option value="$PROJECT_DIR$/.gitignore Java" />
       </list>
     </option>
   </component>
@@ -116,7 +134,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,6 +179,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -173,7 +191,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548705270810" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gitignore/.gitignore Java" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -236,7 +254,8 @@
       <workItem from="1548638354371" duration="2496000" />
       <workItem from="1548692468936" duration="1389000" />
       <workItem from="1548704377722" duration="1510000" />
-      <workItem from="1548708825678" duration="1240000" />
+      <workItem from="1548708825678" duration="1408000" />
+      <workItem from="1548715449135" duration="140000" />
     </task>
     <task id="LOCAL-00001" summary="Added new methods">
       <created>1548122477670</created>
@@ -294,17 +313,31 @@
       <option name="project" value="LOCAL" />
       <updated>1548692518454</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Method retirarBicicleta() done">
+      <created>1548713399080</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1548713399080</updated>
+    </task>
+    <task id="LOCAL-00010" summary="No changes">
+      <created>1548713427065</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1548713427065</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15323000" />
+    <option name="totallyTimeSpent" value="15631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18255034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1852349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -313,7 +346,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32719547" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32719547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -345,6 +378,7 @@
     <MESSAGE value="Created new method" />
     <MESSAGE value="Changed .gitignore" />
     <MESSAGE value="Refactored method consultarAnclajes()" />
+    <MESSAGE value="Method retirarBicicleta() done" />
     <MESSAGE value="No changes" />
     <option name="LAST_COMMIT_MESSAGE" value="No changes" />
   </component>
@@ -392,16 +426,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore Java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/estacion/Estacion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
+        <state relative-caret-position="114">
           <caret line="90" column="65" selection-start-line="90" selection-start-column="65" selection-end-line="90" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -414,6 +441,20 @@
             <element signature="e#2305#2306#0" expanded="true" />
             <element signature="e#2356#2357#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gitignore/.gitignore Java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="62" selection-start-line="62" selection-end-line="65" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore Java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
         </state>
       </provider>
     </entry>
