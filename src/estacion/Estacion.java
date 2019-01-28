@@ -13,10 +13,11 @@ public class Estacion {
     private int numeroAnclaje = 0;
     private Bicicleta[] anclajes = null;
 
-    public Estacion(int id, String direccion, int  anclajes) {
+    public Estacion(int id, String direccion, int numeroAnclaje) {
         this.id = id;
         this.direccion = direccion;
-        this.anclajes = new Bicicleta[anclajes];
+        this.numeroAnclaje = numeroAnclaje;
+        this.anclajes = new Bicicleta[numeroAnclaje];
     }
 
     public int getId() {
@@ -50,16 +51,15 @@ public class Estacion {
 
     public void consultarAnclajes() {
 
-        for (int i = 1; i < anclajes.length; i++) {
+        int posicion = 0;
 
-            Bicicleta bici = anclajes[i];
-
-            if (bici == null ){
-                System.out.println("Anclaje " +  i + " libre" );
+        for (Bicicleta bicicleta : this.anclajes){
+            posicion++;
+            if (bicicleta == null ){
+                System.out.println("Anclaje " +  posicion + " libre" );
             } else {
-                System.out.println("Anclaje " + i + " " + bici.getId() );
+                System.out.println("Anclaje " + posicion + " " + bicicleta.getId() );
             }
-
         }
     }
 
