@@ -89,7 +89,20 @@ public class Estacion {
     }
 
     public void retirarBicicleta(TarjetaUsuario tarjetaUsuario) {
-        //TODO
+        if (leerTarjetaUsuario(tarjetaUsuario)) {
+            boolean biciRetirada = false;
+
+            while (!biciRetirada) {
+                int posicion = generarAnclaje();
+                numeroAnclaje = posicion + 1;
+
+                if (this.anclajes[posicion] != null) {
+                    mostrarBicicleta(this.anclajes[posicion], numeroAnclaje);
+                    this.anclajes[posicion] = null;
+                    biciRetirada = true;
+                }
+            }
+        }
     }
 
     public void mostrarBicicleta(Bicicleta bicicleta, int numeroAnclaje) {
