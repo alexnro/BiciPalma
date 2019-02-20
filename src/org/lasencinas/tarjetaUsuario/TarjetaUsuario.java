@@ -1,4 +1,4 @@
-package tarjetaUsuario;
+package org.lasencinas.tarjetaUsuario;
 
 public class TarjetaUsuario {
 

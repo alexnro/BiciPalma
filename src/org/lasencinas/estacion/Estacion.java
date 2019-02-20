@@ -1,7 +1,7 @@
-package estacion;
+package org.lasencinas.estacion;
 
-import bicicleta.Bicicleta;
-import tarjetaUsuario.TarjetaUsuario;
+import org.lasencinas.bicicleta.Bicicleta;
+import org.lasencinas.tarjetaUsuario.TarjetaUsuario;
 
 import java.util.concurrent.ThreadLocalRandom;
 

@@ -1,4 +1,4 @@
-package bicicleta;
+package org.lasencinas.bicicleta;
 
 public class Bicicleta {
 

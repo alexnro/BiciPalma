@@ -1,8 +1,8 @@
-package appalma;
+package org.lasencinas.appalma;
 
-import bicicleta.Bicicleta;
-import estacion.Estacion;
-import tarjetaUsuario.TarjetaUsuario;
+import org.lasencinas.bicicleta.Bicicleta;
+import org.lasencinas.estacion.Estacion;
+import org.lasencinas.tarjetaUsuario.TarjetaUsuario;
 
 public class BiciPalma {
 
@@ -10,11 +10,11 @@ public class BiciPalma {
 
         Estacion estacion = new Estacion(1, "Manacor", 6);
 
-        /* caso TEST visualizar estado de la estacion
+        /* caso TEST visualizar estado de la org.lasencinas.estacion
          * muestra id, direccion, anclaje
          * */
 
-        System.out.println("\n **** caso TEST visualizar estado de la estacion **** \n");
+        System.out.println("\n **** caso TEST visualizar estado de la org.lasencinas.estacion **** \n");
 
         estacion.consultarEstacion();
 
@@ -24,15 +24,15 @@ public class BiciPalma {
 
         System.out.println("anclajesLibres: " + estacion.anclajesLibres());
 
-        /* caso TEST anclar bicicleta(s) */
+        /* caso TEST anclar org.lasencinas.bicicleta(s) */
 
-        System.out.println("\n **** caso TEST anclar bicicleta(s) **** \n");
+        System.out.println("\n **** caso TEST anclar org.lasencinas.bicicleta(s) **** \n");
 
         int[] bicicletas = {291, 292, 293, 294};
 
 		/* // generar anclaje random
 		for (int i: bicicletas){
-			System.out.println( estacion.generarAnclaje());
+			System.out.println( org.lasencinas.estacion.generarAnclaje());
 		}
 		*/
 
@@ -49,9 +49,9 @@ public class BiciPalma {
 
         estacion.consultarAnclajes();
 
-        /* caso TEST retirar bicicleta */
+        /* caso TEST retirar org.lasencinas.bicicleta */
 
-        System.out.println("\n **** caso TEST retirar bicicleta **** \n");
+        System.out.println("\n **** caso TEST retirar org.lasencinas.bicicleta **** \n");
 
         TarjetaUsuario tarjetaUsuario = new TarjetaUsuario("000456789", true);
 
